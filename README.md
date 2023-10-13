@@ -24,6 +24,15 @@ python3 -m venv venv
 
 to set up your virtual environment in a folder called `venv`. Next you need to set this folder as your interpreter (your IDE might prompt you to do this automatically. If it did not prompt you, to do this in VS Code, press `ctrl+shift+p` to open your command prompt and type in `Python: Select Interpreter`. Press enter and select the one that ends in something like `('venv':venv)`.
 
+## Activate your venv
+
+This may not be needed as your IDE might auto-activate the venv. If your venv is activated, there should be a "`(venv)`" somewhere at the beginning of your command line. If not, run
+
+`source venv/bin/activate`
+
+and check to make sure your venv is active.
+
+
 ## Installing Required Packages
 
 In order to install the required packages, open a new terminal in VS Code by pressing ```ctrl+shift+` ```. This terminal will already be in your virtual environment, and simply run the command
