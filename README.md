@@ -28,7 +28,9 @@ to set up your virtual environment in a folder called `venv`. Next you need to s
 
 This may not be needed as your IDE might auto-activate the venv. If your venv is activated, there should be a "`(venv)`" somewhere at the beginning of your command line. If not, run
 
-`source venv/bin/activate`
+```bash
+source venv/bin/activate`
+```
 
 and check to make sure your venv is active.
 
